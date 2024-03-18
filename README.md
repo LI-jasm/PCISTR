@@ -1,4 +1,4 @@
-# PCITSR
+# PCISTR
 
 > **This is the code for our paper** `Protein Complex Identification Method Based on Spatiotemporal Constrained RNA-Protein Heterogeneous Network`.
 
