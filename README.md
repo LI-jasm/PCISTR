@@ -1,6 +1,6 @@
-# PCISTR
+# STRPCI
 
-> **This is the code for our paper** `Protein Complex Identification Method Based on Spatiotemporal Constrained RNA-Protein Heterogeneous Network`.
+> **This is the code for our paper** `Spatiotemporal Constrained RNA-Protein Heterogeneous Network for Protein Complex Identification`.
 
 ## Dependencies
 Recent versions of the following packages for Python 3 are required:
@@ -33,7 +33,7 @@ Update_linking_weight.py
 * Step 2: MHPIN_emb.py: Calculate the wide-domain interaction pattern matrix and deep-domain interaction pattern matrix based on the generated basic interaction patterns. Use the pattern matrix and Protein-RNA interaction matrix as the heterogeneous network structure information, and use the dual view aggregator to jointly learn the protein embedding under the two patterns.
 * Step 3: Update_linking_weight.py: Calculate the cosine similarity based on the protein embedding representation and update the weight of each edge in the PIN.
 * Step 4: Cluster_core_attachment.py: Generate a set of structurally closely related protein seed cores in the PIN with the cluster mining algorithm, and filter them based on the embedding similarity. Generate complexes based on the core-attachment structure.
-* Step 5: Compare_performance.py: Compare the performance of PCISTR and other classical methods based on different evaluation metrics.
+* Step 5: Compare_performance.py: Compare the performance of STRPCI and other classical methods based on different evaluation metrics.
 
 ## Contact
 
